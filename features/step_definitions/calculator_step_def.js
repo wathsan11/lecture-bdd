@@ -3,7 +3,7 @@ import assert from 'assert'
 import { Calculator } from '../../src/index.js'
 
 let calculator
-let i, j, sum
+let i, j, result
 
 Before(() => {
   calculator = new Calculator()
@@ -15,9 +15,9 @@ Given('I have entered 5 and 7 into the calculator', function () {
 })
 
 When('I press the add button', function () {
-  sum = calculator.addition(i, j)
+  result = calculator.addition(i, j)
 })
 
 Then('the result should be 12', function () {
-  assert.equal(sum, 12)
+  assert.equal(result, 12)
 })
