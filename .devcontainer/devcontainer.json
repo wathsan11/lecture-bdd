@@ -4,5 +4,14 @@
 
   "features": {
     "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "AbhinabaGhosh.cucumberquick",
+        "alexkrechik.cucumberautocomplete",
+        "esbenp.prettier-vscode"
+      ]
+    }
   }
 }
