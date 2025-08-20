@@ -28,3 +28,9 @@ Feature: Calculator Basic Operations
       | firstValue | secondValue | expectedValue |
       | 9          | 1           | 8             |
       | 8          | 7           | 1             |
+
+  # Scenario: User should be able to like a post
+  #   Given user has logged in to facebook.com and post has no likes
+  #   When user press the like button
+  #   Then the number of likes should be 1
+

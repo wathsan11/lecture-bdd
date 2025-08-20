@@ -7,3 +7,13 @@ export class Calculator {
     return i-j
   }
 }
+
+export class resultCalculator{
+  calculate(score)
+  {
+    if(score<30){
+      return'F'
+    }
+    return 'P'
+  }
+}
